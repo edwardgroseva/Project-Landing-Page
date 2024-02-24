@@ -14,15 +14,15 @@ body{
 
 .logo{
 
-    width: 50px;
-    height: 50px;
+    width: 47px;
+    
     
 }
 
 *{
 
-border: solid 2x red;
-
+    border: solid 2px red;
+    font-family: "Jost", sans-serif;
 }
 
 .header{
@@ -51,6 +51,39 @@ li{
 a{
 
     text-decoration: none;
+    
+    font-size: 25px;
+}
+
+.upper{
+
+    flex: 1 1 400px;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row-reverse;
+}
+
+.bigtext{
+
+    flex: 1;
+    max-width: 350px;
+    font-size: 40px;
+    
+}
+
+.fightimg{
+
+    
+    height: 300px;
+
+}
+
+.smalltext{
+
+
 
 
 }
