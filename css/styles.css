@@ -126,7 +126,7 @@ ul a{
 
     display: flex;
     gap: 4em;
-    
+    flex-wrap: wrap;
 }
 
 .mid-img{
@@ -145,6 +145,6 @@ ul a{
 
     margin-top: 2rem;
     color: #1f2937;
-
+    
 }
 
