@@ -21,7 +21,7 @@ body{
 
 *{
 
-    border: solid 2px red;
+    border: solid 2x red;
     font-family: "Jost", sans-serif;
 }
 
@@ -115,11 +115,11 @@ ul a{
 
 .mid{
 
-    background-color: #eed0a3;
+    background-color: #f0cd98;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .row-img{
@@ -131,14 +131,14 @@ ul a{
 
 .mid-img{
     margin-top: 2rem;
-    border-radius: 2rem;
+    margin-bottom: 10px;
+    border-radius: 5rem;
     width: 10em;
     height: 10em;
-    flex:1;
-    border: solid #1f2937 5px;
+    border:  solid #1f2937 4px;
     display: flex;
-    flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .mid h1{
@@ -148,3 +148,100 @@ ul a{
     
 }
 
+
+.mid h1 em{
+
+    color: black;
+
+}
+
+.mid-img img{
+
+    height: 70%;
+    
+}
+
+.row-img div div{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.qoute{
+
+    color: beige;
+    font-style: italic;
+    font-size: 55px;
+    max-width: 90rem;
+    display: flex;
+   
+}
+
+.bot1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 5rem;
+  
+}
+
+.bot1 p{
+    font-size: 35px;
+    align-self: flex-end;
+    font-style: italic;
+}
+
+.box1{
+
+    width: 50rem;
+    height: 10rem;
+    background-color: #1f2937;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.bot2{
+
+    display: flex;
+    justify-content: center;
+    background-color: #f0cd98;
+    padding: 5rem;
+}
+
+.section1 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+.section2{
+
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.section2 a{
+
+    width: 4rem;
+    background-color: #f0cd98;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-left: 11px;
+}
+
+.footer{
+
+    background-color: #1f2937;
+
+}
